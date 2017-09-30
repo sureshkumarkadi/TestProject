@@ -14,7 +14,7 @@ import os
 import sys
 import datetime
 import HTMLTestRunner
-
+import time
 dirpath = os.path.dirname(os.path.realpath(__file__))
 folderpath = os.path.abspath(os.path.join(dirpath,os.pardir))
 
