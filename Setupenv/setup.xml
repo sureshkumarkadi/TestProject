@@ -1,0 +1,11 @@
+<?xml version = "1.0"?>
+
+<envsetup>
+
+    <testproject>
+
+        <browser>firefox</browser>
+
+    </testproject>
+
+</envsetup>
