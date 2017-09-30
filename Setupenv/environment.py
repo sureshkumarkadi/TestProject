@@ -12,6 +12,8 @@
 import os
 import sys
 from selenium import webdriver
+import time
+
 
 dirpath = os.path.dirname(os.path.realpath(__file__))
 folderpath = os.path.abspath(os.path.join(dirpath,os.pardir))
