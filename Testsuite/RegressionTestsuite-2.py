@@ -21,7 +21,7 @@ folderpath = os.path.abspath(os.path.join(dirpath,os.pardir))
 sys.path.insert(0,folderpath+'\Testscripts')
 sys.path.insert(0,folderpath+'\Testreport')
 
-from Validatebrowserclass import validatebrowserclass
+#from Validatebrowserclass import validatebrowserclass
 from Validategmailclass import validategmailclass
 
 
