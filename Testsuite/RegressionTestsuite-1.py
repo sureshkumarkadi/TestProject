@@ -31,7 +31,7 @@ suite.addTest(validatebrowserclass('test_validatebrowsermethod'))
 #suite.addTest(validategmailclass('test_validategmailmethod'))
 
 todaysdate = datetime.datetime.today().strftime('%Y-%m-%d')
-outfile = file(folderpath+'\Testreport\Regressionsuitereport-%s.html' %todaysdate,'w')
+outfile = file(folderpath+'\Testreport\Regressionsuite1report-%s.html' %todaysdate,'w')
 Testreport = HTMLTestRunner.HTMLTestRunner(stream=outfile,verbosity=2,title='Testproject Automation report',description='Regression report')
 Testreport.run(suite)
 outfile.close()

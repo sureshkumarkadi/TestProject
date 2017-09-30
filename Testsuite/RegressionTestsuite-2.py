@@ -27,11 +27,11 @@ from Validategmailclass import validategmailclass
 
 suite = unittest.TestSuite()
 
-suite.addTest(validatebrowserclass('test_validatebrowsermethod'))
+#suite.addTest(validatebrowserclass('test_validatebrowsermethod'))
 suite.addTest(validategmailclass('test_validategmailmethod'))
 
 todaysdate = datetime.datetime.today().strftime('%Y-%m-%d')
-outfile = file(folderpath+'\Testreport\Regressionsuitereport-%s.html' %todaysdate,'w')
+outfile = file(folderpath+'\Testreport\Regressionsuite2report-%s.html' %todaysdate,'w')
 Testreport = HTMLTestRunner.HTMLTestRunner(stream=outfile,verbosity=2,title='Testproject Automation report',description='Regression report')
 Testreport.run(suite)
 outfile.close()
